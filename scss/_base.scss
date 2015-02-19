@@ -95,3 +95,22 @@ dt{
 dd {
     margin: 0 0 em(10px) 0;
 }
+
+ul {
+    margin: 0 0 0 1em;
+    padding: 0;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;   
+    margin: 0 0 0 2em;
+    padding: 0;
+}
+
+ol li {
+    margin-bottom: em(10px);    
+}
+
+p + ul, p + ol {
+    margin-top: -18px;
+}
